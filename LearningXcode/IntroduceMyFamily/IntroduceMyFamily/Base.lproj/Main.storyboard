@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zqh-dQ-RF4">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IntroduceMyFamily" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="4Rl-5z-fiG">
+                                <rect key="frame" x="150" y="223" width="93" height="445"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VP5-pY-K5v">
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="71.333333333333329"/>
+                                        <color key="tintColor" red="0.95686274770000002" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Brayden">
+                                            <color key="baseBackgroundColor" red="0.34508067660000002" green="0.4223481214" blue="0.66299715910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Eyq-mN-imr" kind="show" identifier="braydenButton" id="LbI-9H-OQt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4CF-o7-xBR">
+                                        <rect key="frame" x="0.0" y="93.333333333333314" width="93" height="71.333333333333314"/>
+                                        <color key="tintColor" red="0.95686274770000002" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Me">
+                                            <color key="baseBackgroundColor" red="0.34508067660000002" green="0.4223481214" blue="0.66299715910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Eyq-mN-imr" kind="show" identifier="meButton" id="Hw5-Hx-O1D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vv-3b-Qnt">
+                                        <rect key="frame" x="0.0" y="186.66666666666669" width="93" height="71.666666666666686"/>
+                                        <color key="tintColor" red="0.95686274770000002" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Zenitsu">
+                                            <color key="baseBackgroundColor" red="0.34508067660000002" green="0.4223481214" blue="0.66299715910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Eyq-mN-imr" kind="show" identifier="zenitsuButton" id="0kK-Lj-VgP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUC-Vf-2j4">
+                                        <rect key="frame" x="0.0" y="280.33333333333331" width="93" height="71.333333333333314"/>
+                                        <color key="tintColor" red="0.95686274770000002" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Nezuko">
+                                            <color key="baseBackgroundColor" red="0.34508067660000002" green="0.4223481214" blue="0.66299715910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Eyq-mN-imr" kind="show" identifier="nezukoButton" id="buh-fn-aQj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwu-dy-jKA">
+                                        <rect key="frame" x="0.0" y="373.66666666666663" width="93" height="71.333333333333314"/>
+                                        <color key="tintColor" red="0.95686274770000002" green="0.96470588450000005" blue="0.90588235859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Inosuke">
+                                            <color key="baseBackgroundColor" red="0.34508067660000002" green="0.4223481214" blue="0.66299715910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Eyq-mN-imr" kind="show" identifier="inosukeButton" id="Lhc-2g-BiE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="4Rl-5z-fiG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="PJl-2Y-Rc7"/>
+                            <constraint firstItem="4Rl-5z-fiG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="120" id="jun-J4-DB5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Rl-5z-fiG" secondAttribute="bottom" constant="150" id="pB7-R2-ld1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Rl-5z-fiG" secondAttribute="trailing" constant="150" id="uty-A5-C56"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hHD-eE-FkZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982.44274809160299" y="-27.464788732394368"/>
+        </scene>
+        <!--Fam View Controller-->
+        <scene sceneID="6YN-V8-B8e">
+            <objects>
+                <viewController id="Eyq-mN-imr" customClass="FamViewController" customModule="IntroduceMyFamily" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZQ6-Hh-30S">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YBm-sQ-TJ5">
+                                <rect key="frame" x="50" y="173" width="293" height="195"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgo-ln-Ll2">
+                                <rect key="frame" x="20" y="465" width="353" height="22"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FamilyMember" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGy-7K-h5a">
+                                <rect key="frame" x="129.33333333333334" y="398" width="132.00000000000003" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="X7B-a5-IsM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3iF-PD-yV8"/>
+                        <color key="backgroundColor" red="0.46843444453125455" green="0.4874090429606433" blue="0.66299715909090917" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Sgo-ln-Ll2" firstAttribute="top" secondItem="YGy-7K-h5a" secondAttribute="bottom" constant="27.999999999997556" id="9bN-rv-UiN"/>
+                            <constraint firstItem="YGy-7K-h5a" firstAttribute="leading" secondItem="3iF-PD-yV8" secondAttribute="leading" constant="129.26771653542869" id="CGB-i1-Iwv"/>
+                            <constraint firstItem="YBm-sQ-TJ5" firstAttribute="top" secondItem="3iF-PD-yV8" secondAttribute="top" constant="70" id="E0f-Uc-IMF"/>
+                            <constraint firstItem="3iF-PD-yV8" firstAttribute="trailing" secondItem="YBm-sQ-TJ5" secondAttribute="trailing" constant="50" id="MOi-YJ-NxV"/>
+                            <constraint firstItem="YBm-sQ-TJ5" firstAttribute="leading" secondItem="3iF-PD-yV8" secondAttribute="leading" constant="50" id="ZnW-sG-AMG"/>
+                            <constraint firstItem="3iF-PD-yV8" firstAttribute="trailing" secondItem="Sgo-ln-Ll2" secondAttribute="trailing" constant="20" id="dmD-33-qgQ"/>
+                            <constraint firstItem="YGy-7K-h5a" firstAttribute="top" secondItem="ZQ6-Hh-30S" secondAttribute="top" constant="397.9999999999859" id="fCF-9M-Ygw"/>
+                            <constraint firstItem="YGy-7K-h5a" firstAttribute="top" secondItem="YBm-sQ-TJ5" secondAttribute="bottom" constant="30" id="tfZ-pI-Mrd"/>
+                            <constraint firstItem="Sgo-ln-Ll2" firstAttribute="leading" secondItem="3iF-PD-yV8" secondAttribute="leading" constant="20" id="tjf-G2-ag7"/>
+                            <constraint firstItem="3iF-PD-yV8" firstAttribute="trailing" secondItem="YGy-7K-h5a" secondAttribute="trailing" constant="131.73228346457131" id="w8V-75-luY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FZG-9U-FWj"/>
+                    <connections>
+                        <outlet property="familyDescription" destination="Sgo-ln-Ll2" id="nT4-ZO-EbD"/>
+                        <outlet property="familyImage" destination="YBm-sQ-TJ5" id="lbN-Jl-bG1"/>
+                        <outlet property="familyName" destination="YGy-7K-h5a" id="pM5-3q-sPm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="705-Zg-bKJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698.4732824427481" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5rp-tL-zbR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zqh-dQ-RF4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UKV-ic-bRT">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Mo9-34-g1v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7U-KZ-vJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55.725190839694655" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="LbI-9H-OQt"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" systemColor="labelColor"/>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tally_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catsNDogs" translatesAutoresizingMaskIntoConstraints="NO" id="J12-Qg-rCK">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6R-Go-Pm3">
+                                <rect key="frame" x="40" y="159" width="313" height="42"/>
+                                <color key="backgroundColor" red="0.47667954765821619" green="0.8724135469609825" blue="1" alpha="0.68067052980132448" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.27656488009160279" green="0.37035397206562143" blue="0.63484453915050509" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WkX-dz-eey">
+                                <rect key="frame" x="50" y="631" width="293" height="42"/>
+                                <color key="backgroundColor" red="0.99166361675738235" green="0.72409745113410562" blue="1" alpha="0.68067052980132448" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.27656488010000002" green="0.37035397209999998" blue="0.63484453919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="elz-h7-xco">
+                                <rect key="frame" x="78" y="703" width="237" height="41"/>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd9-SE-5ky">
+                                <rect key="frame" x="79" y="301" width="235" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="MCK-Op-uD9"/>
+                                </constraints>
+                                <color key="tintColor" red="0.3531475724" green="0.23924306710000001" blue="0.63484453919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Count"/>
+                                <connections>
+                                    <action selector="countButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZf-6L-68s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y6R-Go-Pm3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="1YP-ci-jSp"/>
+                            <constraint firstAttribute="bottom" secondItem="J12-Qg-rCK" secondAttribute="bottom" id="3l5-vL-Sf0"/>
+                            <constraint firstItem="elz-h7-xco" firstAttribute="top" secondItem="WkX-dz-eey" secondAttribute="bottom" constant="30" id="7aD-ch-h9O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sd9-SE-5ky" secondAttribute="trailing" constant="79" id="8a4-0s-deD"/>
+                            <constraint firstItem="Y6R-Go-Pm3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="A3a-S0-jYd"/>
+                            <constraint firstItem="WkX-dz-eey" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="BPD-aB-lmI"/>
+                            <constraint firstItem="elz-h7-xco" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="Dv1-MX-uAv"/>
+                            <constraint firstItem="J12-Qg-rCK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GnI-Ml-Tnb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y6R-Go-Pm3" secondAttribute="trailing" constant="40" id="IXL-v3-Vsg"/>
+                            <constraint firstItem="J12-Qg-rCK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="J5d-tQ-l9H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="elz-h7-xco" secondAttribute="trailing" constant="78" id="JZd-Gc-y3z"/>
+                            <constraint firstItem="J12-Qg-rCK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ul7-IC-bej"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="elz-h7-xco" secondAttribute="bottom" constant="75" id="UzZ-Nw-yxm"/>
+                            <constraint firstItem="Sd9-SE-5ky" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="eit-mw-hEu"/>
+                            <constraint firstItem="Sd9-SE-5ky" firstAttribute="top" secondItem="Y6R-Go-Pm3" secondAttribute="bottom" constant="100" id="g8d-Hx-GwH"/>
+                            <constraint firstItem="WkX-dz-eey" firstAttribute="top" secondItem="Sd9-SE-5ky" secondAttribute="bottom" constant="95" id="gT4-oD-Csj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WkX-dz-eey" secondAttribute="trailing" constant="50" id="oZ8-qt-Az8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countButton" destination="Sd9-SE-5ky" id="KXW-QI-I5k"/>
+                        <outlet property="countNumbers" destination="Y6R-Go-Pm3" id="brS-vn-oCt"/>
+                        <outlet property="segmentedControl" destination="elz-h7-xco" id="fjb-RM-uxK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="catsNDogs" width="3000" height="4000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

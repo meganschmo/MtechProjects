@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yVu-8P-ga9">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me-->
+        <scene sceneID="JnP-dJ-Ee8">
+            <objects>
+                <viewController id="ekV-v1-RWQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W7t-4k-dFz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4lk-vH-Cea">
+                                <rect key="frame" x="0.0" y="445" width="393" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My name is Megan Schmoyer, I am 24 years old. I have 3 cat children and a husband." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQy-ls-Axo">
+                                        <rect key="frame" x="0.0" y="81" width="393" height="118"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cats" translatesAutoresizingMaskIntoConstraints="NO" id="NKw-Na-66Q">
+                                <rect key="frame" x="0.0" y="59" width="393" height="309"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xWD-u4-cV7"/>
+                        <color key="backgroundColor" red="0.80537210051546393" green="0.63228881198051423" blue="0.68235033953652491" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me" image="book" catalog="system" selectedImage="book" id="Mgx-3c-uBg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPh-89-Emw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="-720.42253521126759"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab_AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PennyFamily42copy" translatesAutoresizingMaskIntoConstraints="NO" id="o4T-RZ-lzB">
+                                <rect key="frame" x="0.0" y="59" width="393" height="310"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ILP-6x-fBS">
+                                <rect key="frame" x="0.0" y="454" width="393" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is my family I grew up with 6 siblings." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3R-AN-pda">
+                                        <rect key="frame" x="0.0" y="82" width="393" height="116"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.3651798068963743" green="0.39759982707401503" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="o4T-RZ-lzB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RsL-HH-r5z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o4T-RZ-lzB" secondAttribute="trailing" id="ZRw-1j-cXV"/>
+                            <constraint firstItem="o4T-RZ-lzB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZzV-9m-3Xh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="o4T-RZ-lzB" secondAttribute="bottom" constant="400" id="jLF-SK-xji"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="bookmark" catalog="system" selectedImage="bookmark" id="gOg-P3-HzE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="-27.464788732394368"/>
+        </scene>
+        <!--Hobby-->
+        <scene sceneID="heh-OH-8jz">
+            <objects>
+                <viewController id="BAL-Wa-2yr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vM4-fV-3SC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elk" translatesAutoresizingMaskIntoConstraints="NO" id="pzy-Ru-3CE">
+                                <rect key="frame" x="0.0" y="59" width="393" height="310"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WHq-xl-cv9">
+                                <rect key="frame" x="0.0" y="450" width="393" height="281"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My hobbies inclue art, baking, and hunting. Because of these favorite hobbies fall is my favorite season." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8F-93-a5i">
+                                        <rect key="frame" x="8" y="59" width="377" height="162"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jb6-Ti-4UA"/>
+                        <color key="backgroundColor" red="0.45119466251177748" green="0.5645940721649485" blue="0.48860482988918996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pzy-Ru-3CE" firstAttribute="leading" secondItem="jb6-Ti-4UA" secondAttribute="leading" id="683-zB-h3q"/>
+                            <constraint firstItem="pzy-Ru-3CE" firstAttribute="top" secondItem="jb6-Ti-4UA" secondAttribute="top" id="Dzg-Vj-5Ka"/>
+                            <constraint firstItem="jb6-Ti-4UA" firstAttribute="bottom" secondItem="pzy-Ru-3CE" secondAttribute="bottom" constant="400" id="J7n-75-hng"/>
+                            <constraint firstItem="jb6-Ti-4UA" firstAttribute="trailing" secondItem="pzy-Ru-3CE" secondAttribute="trailing" id="Qa3-4p-Sav"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobby" image="figure.run" catalog="system" selectedImage="figure.run" id="gX1-0m-4Rr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DMg-52-K6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="636.61971830985919"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kk7-OF-sq6">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="yVu-8P-ga9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hjf-3x-RaT">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="87C-Ew-FOT"/>
+                        <segue destination="ekV-v1-RWQ" kind="relationship" relationship="viewControllers" id="fj1-kn-PYT"/>
+                        <segue destination="BAL-Wa-2yr" kind="relationship" relationship="viewControllers" id="OcX-GH-bQm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VaK-bh-0sh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PennyFamily42copy" width="3600" height="2782"/>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="bookmark" catalog="system" width="110" height="128"/>
+        <image name="cats" width="3024" height="4032"/>
+        <image name="elk" width="2564" height="3205"/>
+        <image name="figure.run" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

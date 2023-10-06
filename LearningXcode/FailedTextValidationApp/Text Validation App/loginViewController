@@ -1,0 +1,25 @@
+//
+//  ViewController.swift
+//  Text Validation App
+//
+//  Created by Megan Schmoyer on 9/27/23.
+//
+
+import UIKit
+
+class loginViewController: UIViewController {
+
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var warningLabel: UILabel!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    @IBAction func submitButtonPressed(_ sender: Any) {
+    }
+    
+
+}
+
